@@ -1,0 +1,79 @@
+2022-08-13 16:20:24,067 INFO :: This message to show some information
+2022-08-13 16:20:24,067 WARNING :: This Message for Show the Warnings
+2022-08-13 16:20:24,067 ERROR :: This for Show error
+2022-08-13 16:24:21,085 INFO :: This message to show some information
+2022-08-13 16:24:21,086 WARNING :: This Message for Show the Warnings
+2022-08-13 16:24:21,086 ERROR :: This for Show error
+2022-08-13 16:24:21,086 INFO :: Hello from the Binance Connector
+2022-08-13 16:24:33,182 INFO :: This message to show some information
+2022-08-13 16:24:33,182 WARNING :: This Message for Show the Warnings
+2022-08-13 16:24:33,182 ERROR :: This for Show error
+2022-08-13 16:24:33,183 INFO :: Hello from the Binance Connector
+2022-08-14 01:04:09,309 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-14 01:04:09,943 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-08-14 01:04:09,949 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-14 01:04:10,459 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1660419249948&signature=e1a4d997e0857647ad9a835439e47dc25941af5283c37982fcc52b8e7ee00cff HTTP/1.1" 401 96
+2022-08-14 01:04:10,464 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action, request ip: 103.90.73.175'} (error code 401)
+2022-08-14 01:04:10,465 INFO :: Binance Futures Client successfully initialized
+2022-08-14 01:04:10,466 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-08-14 01:04:10,906 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 401 59
+2022-08-14 01:04:10,911 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2022-08-14 01:04:10,912 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-08-14 01:04:11,190 INFO :: Binance connection opened
+2022-08-14 01:04:11,191 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2022-08-14 01:04:11,198 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 401 59
+2022-08-14 01:04:11,203 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2022-08-14 01:04:11,203 INFO :: Bitmex Client successfully initialized
+2022-08-14 01:04:12,154 INFO :: Bitmex connection opened
+2022-08-14 01:10:20,132 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x0000023D67CDB040>>: _on_close() takes 2 positional arguments but 4 were given
+2022-08-14 01:10:20,133 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-08-14 01:10:20,355 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x0000023D67CDBFD0>>: _on_close() takes 2 positional arguments but 4 were given
+2022-08-14 01:10:20,355 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-08-14 01:10:30,934 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-14 01:10:31,594 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-08-14 01:10:31,611 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-14 01:10:32,165 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1660419631610&signature=3815e407948dbec28ddb14af80615f6dca51c10316fe5b79746aa656f173a46b HTTP/1.1" 401 96
+2022-08-14 01:10:32,170 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action, request ip: 103.90.73.175'} (error code 401)
+2022-08-14 01:10:32,173 INFO :: Binance Futures Client successfully initialized
+2022-08-14 01:10:32,178 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-08-14 01:10:32,750 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 401 59
+2022-08-14 01:10:32,755 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2022-08-14 01:10:32,756 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-08-14 01:10:32,877 INFO :: Binance connection opened
+2022-08-14 01:10:32,878 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2022-08-14 01:10:33,065 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 401 59
+2022-08-14 01:10:33,067 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2022-08-14 01:10:33,067 INFO :: Bitmex Client successfully initialized
+2022-08-14 01:10:34,002 INFO :: Bitmex connection opened
+2022-08-14 01:23:34,573 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-14 01:23:35,348 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/klines?symbol=ADAUSDT&interval=1m&limit=1000 HTTP/1.1" 200 None
+2022-08-14 01:23:35,356 INFO :: Binance: subscribing to: adausdt@aggTrade
+2022-08-14 01:23:35,357 INFO :: Binance: subscribing to: adausdt@bookTicker
+2022-08-14 01:23:58,933 INFO :: Getting Binance trade size...
+2022-08-14 01:23:58,934 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-14 01:23:59,483 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1660420438933&signature=bd83990f77c0de6bcb602dd7429ad6770d403b24295e3e284988fe9687bc5dd2 HTTP/1.1" 401 96
+2022-08-14 01:23:59,488 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action, request ip: 103.90.73.175'} (error code 401)
+2022-08-14 01:38:10,453 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x0000025908213250>>: _on_close() takes 2 positional arguments but 4 were given
+2022-08-14 01:38:10,453 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-08-14 01:38:10,667 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x00000259082136D0>>: _on_close() takes 2 positional arguments but 4 were given
+2022-08-14 01:38:10,668 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-08-14 01:38:28,217 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-14 01:38:28,896 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2022-08-14 01:38:28,905 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2022-08-14 01:38:29,432 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1660421308904&signature=ffcd003a84d786f7e8e70756980706da07d053b72adf2905d9dfa24ef500a21f HTTP/1.1" 401 96
+2022-08-14 01:38:29,438 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action, request ip: 103.90.73.175'} (error code 401)
+2022-08-14 01:38:29,441 INFO :: Binance Futures Client successfully initialized
+2022-08-14 01:38:29,444 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-08-14 01:38:29,889 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 401 59
+2022-08-14 01:38:29,892 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2022-08-14 01:38:29,894 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2022-08-14 01:38:30,136 INFO :: Binance connection opened
+2022-08-14 01:38:30,137 INFO :: Binance: subscribing to: btcusdt@bookTicker
+2022-08-14 01:38:30,222 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 401 59
+2022-08-14 01:38:30,224 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Invalid API Key.', 'name': 'HTTPError'}} (error code 401)
+2022-08-14 01:38:30,224 INFO :: Bitmex Client successfully initialized
+2022-08-14 01:38:31,182 INFO :: Bitmex connection opened
+2022-08-14 01:39:02,393 ERROR :: error from callback <bound method BinanceClient._on_close of <connectors.binance.BinanceClient object at 0x000001D011BE3250>>: _on_close() takes 2 positional arguments but 4 were given
+2022-08-14 01:39:02,393 ERROR :: Binance connection error: _on_close() takes 2 positional arguments but 4 were given
+2022-08-14 01:39:02,611 ERROR :: error from callback <bound method BitmexClient._on_close of <connectors.bitmex.BitmexClient object at 0x000001D011BE36D0>>: _on_close() takes 2 positional arguments but 4 were given
+2022-08-14 01:39:02,611 ERROR :: Bitmex connection error: _on_close() takes 2 positional arguments but 4 were given
